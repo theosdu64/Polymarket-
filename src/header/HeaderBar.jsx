@@ -10,7 +10,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Logo from '../Logo'
 
 const Search = styled('div')(({ theme }) => ({
-  position: 'relative', 
+  position: 'relative',
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   '&:hover': {
@@ -38,13 +38,14 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: 'inherit',
   width: '100%',
   '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
+    padding: theme.spacing(1.5, 1, 1.5, 0), 
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
+    fontSize: '1rem', 
     [theme.breakpoints.up('sm')]: {
-      width: '12ch',
+      width: '30ch', 
       '&:focus': {
-        width: '20ch',
+        width: '50ch', 
       },
     },
   },
@@ -53,15 +54,23 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function HeaderBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
+      <AppBar position="static" elevation={0}>
+        <Toolbar sx={{ py: 1 }}> 
           <Logo />
-          <Search>
+
+          <Search
+            sx={{
+              ml: 2,
+              flexGrow: 1,
+              maxWidth: 800, 
+              height: 48, 
+            }}
+          >
             <SearchIconWrapper>
-              <SearchIcon />
+              <SearchIcon sx={{ fontSize: 24 }} />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search…"
+              placeholder="Search markets..."
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
@@ -70,14 +79,3 @@ export default function HeaderBar() {
     </Box>
   );
 }
-
-
-          // <IconButton
-          //   size="large"
-          //   edge="start"
-          //   color="inherit"
-          //   aria-label="open drawer"
-          //   sx={{ mr: 2 }}
-          // >
-          // <MenuIcon />
-          // </IconButton>
