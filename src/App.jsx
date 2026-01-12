@@ -7,9 +7,8 @@ import './App.css'
 
 export default function App() {
   return (
-    <div>
+    <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
       <HeaderBar />
-      
       <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
         <Grid container spacing={3}>
           {Data.markets.map((market) => (
@@ -21,6 +20,6 @@ export default function App() {
       </Container>
       
       <Footer />
-    </div>
+    </Container>
   );
 }
