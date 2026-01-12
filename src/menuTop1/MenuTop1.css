@@ -1,0 +1,22 @@
+.menu-top-1 div{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#1d2b3a ;
+
+}
+.menu-top-1 a {
+    color:#77808d;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 4px;
+    text-decoration: none;
+    font-family: "Open Sauce One", "ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+.menu-top-1 a:hover {
+    color:#fff;
+}
