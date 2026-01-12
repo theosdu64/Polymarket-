@@ -3,7 +3,7 @@ import {Tabs, Tab, Badge} from '@mui/material';
 import Box from "@mui/material/Box";
 export default function MenuTop1() {
     return (
-        <Tabs
+        <Tabs className="MenuTop1"
 
             variant="scrollable"
             scrollButtons="auto"
@@ -45,7 +45,7 @@ export default function MenuTop1() {
             />
 
             <Tab label="Breaking" />
-            <Tab label="New" />
+            <Tab id="new" label="New" />
             <Tab label="Politics" />
             <Tab label="Sports" />
             <Tab label="Crypto" />
