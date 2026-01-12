@@ -1,15 +1,10 @@
-import { Button, Container, Typography } from "@mui/material";
+import HeaderBar from './header/HeaderBar'
+import './App.css'
 
 export default function App() {
   return (
-    <Container sx={{ mt: 4 }}>
-      <Typography variant="h4" gutterBottom>
-        Hello MUI 👋
-      </Typography>
-
-      <Button variant="contained" color="primary">
-        Bouton MUI
-      </Button>
-    </Container>
+    <div>
+      <HeaderBar />
+    </div>
   );
 }
