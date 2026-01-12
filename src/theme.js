@@ -9,7 +9,8 @@ export const theme = createTheme({
       main: "#ffffff",
     },
     text: {
-      main: "#899cb2",
+      primary: "#f2f2f2", 
+      secondary: "#899cb2",
     },
     validation_button: {
       main: "#43c773",
@@ -17,8 +18,8 @@ export const theme = createTheme({
     red_button: {
       main: "#e13737",
     },
-    background : {
-      default : "#1d2b3a",
-    }
+    background: {
+      default: "#1d2b3a",
+    },
   },
 });
