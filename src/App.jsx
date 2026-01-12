@@ -2,7 +2,7 @@ import { Container, Grid } from '@mui/material';
 import Footer from "./footer/footer";
 import HeaderBar from './header/HeaderBar'
 import MarketCard from './components/MarketCard/MarketCard'
-import MenuTop1 from './components/MenuTop1/MenuTop1'
+import MenuTop1 from './MenuTop1/MenuTop1'
 import Data from '../data.json'
 import './App.css'
 
