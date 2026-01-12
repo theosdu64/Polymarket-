@@ -1,0 +1,277 @@
+{
+  "markets": [
+    {
+      "id": "btc-100k-2025",
+      "title": "Will Bitcoin reach $100k before 2025?",
+      "category": "Crypto",
+      "status": "open",
+      "image": "/images/btc.png",
+      "description": "This market resolves to YES if Bitcoin trades at or above $100,000 on any major exchange before January 1, 2025.",
+      "volume": 1542300,
+      "endDate": "2025-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.62, "price": 0.62 },
+        { "id": "no", "label": "No", "probability": 0.38, "price": 0.38 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.45 },
+        { "time": "2024-03-01", "value": 0.52 },
+        { "time": "2024-06-01", "value": 0.58 },
+        { "time": "2024-09-01", "value": 0.62 }
+      ]
+    },
+    {
+      "id": "eth-etf-2024",
+      "title": "Will an Ethereum ETF be approved in 2024?",
+      "category": "Crypto",
+      "status": "open",
+      "image": "/images/eth.png",
+      "description": "Resolves YES if a spot Ethereum ETF is approved by the SEC before December 31, 2024.",
+      "volume": 842300,
+      "endDate": "2024-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
+        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+      ],
+      "chartData": [
+        { "time": "2024-02-01", "value": 0.48 },
+        { "time": "2024-04-01", "value": 0.51 },
+        { "time": "2024-07-01", "value": 0.55 }
+      ]
+    },
+    {
+      "id": "us-election-2024",
+      "title": "Who will win the US Presidential Election 2024?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/usa.png",
+      "description": "Market resolves to the candidate officially declared the winner of the 2024 US presidential election.",
+      "volume": 4219000,
+      "endDate": "2024-11-05",
+      "outcomes": [
+        { "id": "candidate-a", "label": "Candidate A", "probability": 0.51, "price": 0.51 },
+        { "id": "candidate-b", "label": "Candidate B", "probability": 0.49, "price": 0.49 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.50 },
+        { "time": "2024-05-01", "value": 0.51 }
+      ]
+    },
+    {
+      "id": "world-cup-2026",
+      "title": "Will France win the 2026 World Cup?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/france.png",
+      "description": "Resolves YES if France wins the FIFA World Cup 2026.",
+      "volume": 673400,
+      "endDate": "2026-07-19",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.28, "price": 0.28 },
+        { "id": "no", "label": "No", "probability": 0.72, "price": 0.72 }
+      ],
+      "chartData": [
+        { "time": "2025-01-01", "value": 0.25 },
+        { "time": "2025-06-01", "value": 0.28 }
+      ]
+    },
+    {
+      "id": "apple-ar-headset",
+      "title": "Will Apple release a mass-market AR headset by 2026?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/apple.png",
+      "description": "Resolves YES if Apple releases a consumer AR headset before January 1, 2026.",
+      "volume": 398200,
+      "endDate": "2026-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.41, "price": 0.41 },
+        { "id": "no", "label": "No", "probability": 0.59, "price": 0.59 }
+      ],
+      "chartData": [
+        { "time": "2024-03-01", "value": 0.38 },
+        { "time": "2025-03-01", "value": 0.41 }
+      ]
+    },
+    {
+      "id": "sp500-5000",
+      "title": "Will the S&P 500 reach 5000 in 2024?",
+      "category": "Finance",
+      "status": "open",
+      "image": "/images/sp500.png",
+      "description": "Resolves YES if the S&P 500 index trades at or above 5000 before the end of 2024.",
+      "volume": 1123400,
+      "endDate": "2024-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.67, "price": 0.67 },
+        { "id": "no", "label": "No", "probability": 0.33, "price": 0.33 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.60 },
+        { "time": "2024-06-01", "value": 0.67 }
+      ]
+    },
+    {
+      "id": "ai-regulation-eu",
+      "title": "Will the EU pass major AI regulation by 2025?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/eu.png",
+      "description": "Resolves YES if the European Union passes comprehensive AI regulation before 2025.",
+      "volume": 284900,
+      "endDate": "2025-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.73, "price": 0.73 },
+        { "id": "no", "label": "No", "probability": 0.27, "price": 0.27 }
+      ],
+      "chartData": [
+        { "time": "2024-04-01", "value": 0.70 },
+        { "time": "2024-10-01", "value": 0.73 }
+      ]
+    },
+    {
+      "id": "tesla-robotaxi",
+      "title": "Will Tesla launch a robotaxi service by 2026?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/tesla.png",
+      "description": "Resolves YES if Tesla launches a commercial robotaxi service before 2026.",
+      "volume": 512600,
+      "endDate": "2026-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.46, "price": 0.46 },
+        { "id": "no", "label": "No", "probability": 0.54, "price": 0.54 }
+      ],
+      "chartData": [
+        { "time": "2024-05-01", "value": 0.42 },
+        { "time": "2025-05-01", "value": 0.46 }
+      ]
+    },
+    {
+      "id": "mars-mission-2030",
+      "title": "Will humans land on Mars before 2030?",
+      "category": "Science",
+      "status": "open",
+      "image": "/images/mars.png",
+      "description": "Resolves YES if a human-crewed mission lands on Mars before 2030.",
+      "volume": 739100,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.19, "price": 0.19 },
+        { "id": "no", "label": "No", "probability": 0.81, "price": 0.81 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.15 },
+        { "time": "2026-01-01", "value": 0.19 }
+      ]
+    },
+    {
+      "id": "climate-1-5c",
+      "title": "Will global warming exceed 1.5°C by 2030?",
+      "category": "Environment",
+      "status": "open",
+      "image": "/images/climate.png",
+      "description": "Resolves YES if global average temperature exceeds 1.5°C above pre-industrial levels by 2030.",
+      "volume": 923800,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.76, "price": 0.76 },
+        { "id": "no", "label": "No", "probability": 0.24, "price": 0.24 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.72 },
+        { "time": "2027-01-01", "value": 0.76 }
+      ]
+    },
+    {
+      "id": "netflix-subs-300m",
+      "title": "Will Netflix surpass 300M subscribers by 2026?",
+      "category": "Business",
+      "status": "open",
+      "image": "/images/netflix.png",
+      "description": "Resolves YES if Netflix reports over 300 million subscribers by 2026.",
+      "volume": 456200,
+      "endDate": "2026-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.64, "price": 0.64 },
+        { "id": "no", "label": "No", "probability": 0.36, "price": 0.36 }
+      ],
+      "chartData": [
+        { "time": "2024-06-01", "value": 0.60 },
+        { "time": "2025-12-01", "value": 0.64 }
+      ]
+    },
+    {
+      "id": "ai-agi-2030",
+      "title": "Will AGI be achieved before 2030?",
+      "category": "AI",
+      "status": "open",
+      "image": "/images/ai.png",
+      "description": "Resolves YES if artificial general intelligence is achieved before 2030.",
+      "volume": 1320400,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.34, "price": 0.34 },
+        { "id": "no", "label": "No", "probability": 0.66, "price": 0.66 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.30 },
+        { "time": "2026-01-01", "value": 0.34 }
+      ]
+    },
+    {
+      "id": "olympics-2028-paris",
+      "title": "Will Paris host the Olympics again before 2035?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/paris.png",
+      "description": "Resolves YES if Paris is selected to host the Olympics again before 2035.",
+      "volume": 187400,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
+        { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.20 },
+        { "time": "2028-01-01", "value": 0.22 }
+      ]
+    },
+    {
+      "id": "metaverse-daily-users",
+      "title": "Will the metaverse reach 1B daily users by 2030?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/metaverse.png",
+      "description": "Resolves YES if metaverse platforms reach 1 billion daily active users by 2030.",
+      "volume": 365800,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
+        { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.24 },
+        { "time": "2027-01-01", "value": 0.27 }
+      ]
+    },
+    {
+      "id": "space-tourism-2027",
+      "title": "Will space tourism become mainstream by 2027?",
+      "category": "Science",
+      "status": "open",
+      "image": "/images/space.png",
+      "description": "Resolves YES if space tourism reaches mass-market adoption by 2027.",
+      "volume": 298500,
+      "endDate": "2027-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.31, "price": 0.31 },
+        { "id": "no", "label": "No", "probability": 0.69, "price": 0.69 }
+      ],
+      "chartData": [
+        { "time": "2024-01-01", "value": 0.28 },
+        { "time": "2026-01-01", "value": 0.31 }
+      ]
+    }
+  ]
+}
