@@ -80,7 +80,7 @@ export default function HeaderBar() {
             How it works
           </Button>
         </Toolbar>
-      </AppBar>
+      </AppBar> 
     </Box>
   );
 }
