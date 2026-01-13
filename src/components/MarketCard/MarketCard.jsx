@@ -12,19 +12,21 @@ function MarketCard({
   href,
   onYes,
   onNo,
+  onClick
 }) {
   return (
     <Card
+      onClick={onClick}  
       sx={{
-        position: "relative", // required for absolute children
+        position: "relative",
         pt: -1,
         px: 1,
         pb: 0,
-        minHeight:175,
+        minHeight: 175,
         width: {
-          xs: "100%",   // mobile
-          sm: 320,      // tablets
-          md: 340,      // desktop
+          xs: "100%",
+          sm: 320,
+          md: 340,
         },
         display: "flex",
         flexDirection: "column",
@@ -40,7 +42,7 @@ function MarketCard({
         },
       }}
     >
-      {/*LINE 1 */}
+      {/* LINE 1 */}
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
         <Box
           component="img"
@@ -64,7 +66,6 @@ function MarketCard({
             color: "inherit",
             textDecoration: "none",
             cursor: "pointer",
-
             "&:hover": {
               textDecoration: "underline",
             },
@@ -76,22 +77,21 @@ function MarketCard({
         <Box
           sx={{
             position: "relative",
-            top: -20,     // move UP (smaller = higher)
-            right: -30,   // move RIGHT
+            top: -20,
+            right: -30,
           }}
         >
           <ProbabilitySemiCircle value={probability} />
         </Box>
-
-
-
       </Box>
-      {/*LINE 2 */}
-      {/*GAP BTWEEN BUTTONS */}
+
       <Box sx={{ display: "flex", gap: 1 }}>
         <Button
           variant="contained"
-          onClick={onYes}
+          onClick={(e) => {
+            e.stopPropagation();
+            onYes?.();
+          }}
           sx={{
             flex: 1,
             bgcolor: "marketCard.yes.background",
@@ -99,30 +99,32 @@ function MarketCard({
             textTransform: "none",
             fontSize: 13,
             py: 1.25,
-            "&:hover": { color:'white',bgcolor: "marketCard.yes.main" },
+            "&:hover": { color:'white', bgcolor: "marketCard.yes.main" },
           }}
         >
           Yes
         </Button>
         <Button
           variant="contained"
-          onClick={onNo}
+          onClick={(e) => {
+            e.stopPropagation(); 
+            onNo?.();
+          }}
           sx={{
             flex: 1,
             bgcolor: "marketCard.no.background",
-            color: "white",
-            color:'marketCard.no.main',
+            color: "marketCard.no.main",
             textTransform: "none",
             fontSize: 13,
             py: 1.25,
-            "&:hover": { color:'white',bgcolor: "marketCard.no.main" },
+            "&:hover": { color:'white', bgcolor: "marketCard.no.main" },
           }}
         >
           No
         </Button>
       </Box>
 
-
+      {/* LINE 3 - Footer */}
       <Box
         sx={{
           display: "flex",
