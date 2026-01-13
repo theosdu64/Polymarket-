@@ -1,9 +1,8 @@
-import React from "react";
 import { Card, Box, Button, Typography } from "@mui/material";
 import ProbabilitySemiCircle from "./../ProbabilitySemiCircle";
+
 /* gift card */
 import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
-import CardGiftcardOutlinedIcon from '@mui/icons-material/CardGiftcardOutlined';
 
 function MarketCard({
   title,
@@ -136,7 +135,6 @@ function MarketCard({
           ${volume} Vol.
         </Typography>
         <Typography sx={{ fontSize: 11, color: "rgba(255,255,255,0.7)" }}>
-          <CardGiftcardOutlinedIcon/>
           <TurnedInNotOutlinedIcon/>
         </Typography>
       </Box>
