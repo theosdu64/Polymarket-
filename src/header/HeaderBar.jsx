@@ -8,6 +8,7 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Logo from '../Logo'
+import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn.jsx";
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -74,6 +75,7 @@ export default function HeaderBar() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
+          <LoginSignUpBtn />
         </Toolbar>
       </AppBar>
     </Box>
