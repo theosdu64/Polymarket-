@@ -1,12 +1,14 @@
 import { Container, Grid, Box } from "@mui/material";
 import Footer from "../footer/footer";
 import HeaderBar from "../header/HeaderBar";
-import MarketCard from "../components/MarketCard/MarketCard";
 import MenuTop1 from "../menuTop1/MenuTop1";
+import MarketCard from "../components/MarketCard/MarketCard";
 import Data from "../../data.json";
-import "./home.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
       <Box
@@ -29,10 +31,11 @@ export default function Home() {
             <Grid item xs={12} sm={6} md={4} lg={3} key={market.id}>
               <MarketCard
                 title={market.title}
+                probability={market.probability}
                 volume={market.volume}
-                probability={
-                  Math.round(market.outcomes[0].probability * 1000) / 10
-                }
+                onClick={() => navigate(`/card/${market.id}`)}
+                onYes={() => console.log("YES", market.id)}
+                onNo={() => console.log("NO", market.id)}
               />
             </Grid>
           ))}

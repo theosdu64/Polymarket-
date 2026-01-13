@@ -1,11 +1,16 @@
-import { styled, alpha } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import InputBase from "@mui/material/InputBase";
-import SearchIcon from "@mui/icons-material/Search";
-import Logo from "../Logo";
+import { styled, alpha } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import InputBase from '@mui/material/InputBase';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
+import Logo from '../Logo'
+import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn";
 import HowItWorksButton from "../components/HowItWorkButton/HowItWorkButton";
+
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -66,6 +71,8 @@ export default function HeaderBar() {
             />
           </Search>
           <HowItWorksButton />
+          <LoginSignUpBtn />       
+
         </Toolbar>
       </AppBar>
     </Box>
