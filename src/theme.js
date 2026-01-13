@@ -13,7 +13,7 @@ export const theme = createTheme({
       secondary: "#899cb2",
     },
     success: { 
-      main: "#325455",
+      main: "#43c773",
     },
     error: {    
       main: "#e13737",
