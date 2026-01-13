@@ -12,10 +12,10 @@ export const theme = createTheme({
       primary: "#f2f2f2", 
       secondary: "#899cb2",
     },
-    validation_button: {
+    success: { 
       main: "#43c773",
     },
-    red_button: {
+    error: {    
       main: "#e13737",
     },
     background: {
