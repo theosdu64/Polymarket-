@@ -21,7 +21,7 @@ export const theme = createTheme({
     background: {
       default: "#1d2b3a",
     },
-        marketCard: {          // cor personalizada para MarketCard
+    marketCard: {          // cor personalizada para MarketCard
       background: "#2F3F50",
       yes:{
         main:"#43c773",
