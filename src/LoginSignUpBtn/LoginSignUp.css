@@ -1,0 +1,22 @@
+.loginSignUpWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+#login {
+    color: rgb(44, 156, 219);
+    text-transform: none;
+}
+
+#login:hover {
+    background-color: rgba(47, 63, 80, 0.739);
+}
+#Sign-up {
+    text-transform: none;
+    background-color: #2c9cdb;
+}
+
+#Sign-up:hover {
+    background-color: #56afe2;
+}
+
