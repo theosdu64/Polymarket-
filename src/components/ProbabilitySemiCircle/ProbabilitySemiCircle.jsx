@@ -10,7 +10,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
   };
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    //<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <Box
         sx={{
           position: "relative",
@@ -65,7 +65,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
           </Typography>
         </Box>
       </Box>
-    </Box>
+    //</Box>
   );
 }
 

@@ -14,12 +14,13 @@ function MarketCard({
   return (
     <Card
       sx={{
-        p: 1.5,
-        height:170,
+        pt: -1,
+        px: 1,
+        pb: 0,
+        height:175,
         width:340,
         display: "flex",
         flexDirection: "column",
-        gap: 1.5,
         borderRadius: 2,
         boxShadow: 3,
         bgcolor: "#2F3F50",
@@ -53,6 +54,7 @@ function MarketCard({
         >
           {title}
         </Typography>
+        
         <ProbabilitySemiCircle value={probability} />
       </Box>
 
