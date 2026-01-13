@@ -1,4 +1,4 @@
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Box } from '@mui/material';
 import Footer from "./footer/footer";
 import HeaderBar from './header/HeaderBar'
 import MarketCard from './components/MarketCard/MarketCard'
@@ -9,8 +9,20 @@ import './App.css'
 export default function App() {
   return (
     <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
-      <HeaderBar />
-        <MenuTop1 />
+      <Box
+        sx={{
+          position: 'sticky',
+          top: 0,
+          zIndex: 1100, 
+          backgroundColor: 'background.default',
+        }}
+      >
+        <Container>
+          <HeaderBar />
+          <MenuTop1 />
+        </Container>
+      </Box>
+
       <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
         <Grid container spacing={3}>
           {Data.markets.map((market) => (
@@ -20,7 +32,7 @@ export default function App() {
           ))}
         </Grid>
       </Container>
-      
+
       <Footer />
     </Container>
   );
