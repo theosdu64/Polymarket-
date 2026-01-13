@@ -1,6 +1,8 @@
-import React from "react";
 import { Card, Box, Button, Typography } from "@mui/material";
 import ProbabilitySemiCircle from "./../ProbabilitySemiCircle";
+
+/* gift card */
+import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
 
 function MarketCard({
   title,
@@ -44,7 +46,7 @@ function MarketCard({
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
         <Box
           component="img"
-          src={'https://img.lightshot.app/1h7H_HvmQdKbfyZ5kEuLLw.png'}
+          src={imageUrl/*'https://img.lightshot.app/1h7H_HvmQdKbfyZ5kEuLLw.png'*/}
           alt={title}
           sx={{
             width: 38,
@@ -135,7 +137,7 @@ function MarketCard({
           ${volume} Vol.
         </Typography>
         <Typography sx={{ fontSize: 11, color: "rgba(255,255,255,0.7)" }}>
-          plch
+          <TurnedInNotOutlinedIcon/>
         </Typography>
       </Box>
     </Card>
