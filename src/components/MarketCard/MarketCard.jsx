@@ -14,13 +14,19 @@ function MarketCard({
   return (
     <Card
       sx={{
+        position: "relative", // required for absolute children
         pt: -1,
         px: 1,
         pb: 0,
-        height:175,
-        width:340,
+        minHeight:175,
+        width: {
+          xs: "100%",   // mobile
+          sm: 320,      // tablets
+          md: 340,      // desktop
+        },
         display: "flex",
         flexDirection: "column",
+        gap: 1,
         borderRadius: 2,
         boxShadow: 3,
         bgcolor: "#2F3F50",
@@ -32,7 +38,8 @@ function MarketCard({
         },
       }}
     >
-      <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+      {/*LINE 1 */}
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
         <Box
           component="img"
           src={'https://img.lightshot.app/1h7H_HvmQdKbfyZ5kEuLLw.png'}
@@ -45,32 +52,52 @@ function MarketCard({
           }}
         />
         <Typography
+          component="a"
+          href={href}
           sx={{
-            fontSize: 14,
-            fontWeight: 600,
+            fontSize: 13,
+            fontWeight: 400,
             flex: 1,
             lineHeight: "18px",
+            color: "inherit",
+            textDecoration: "none",
+            cursor: "pointer",
+
+            "&:hover": {
+              textDecoration: "underline",
+            },
           }}
         >
-          {title}
+          <b>{title}</b>
         </Typography>
         
-        <ProbabilitySemiCircle value={probability} />
+        <Box
+          sx={{
+            position: "relative",
+            top: -20,     // move UP (smaller = higher)
+            right: -30,   // move RIGHT
+          }}
+        >
+          <ProbabilitySemiCircle value={probability} />
+        </Box>
+
+
+
       </Box>
-
-
+      {/*LINE 2 */}
+      {/*GAP BTWEEN BUTTONS */}
       <Box sx={{ display: "flex", gap: 1 }}>
         <Button
           variant="contained"
           onClick={onYes}
           sx={{
             flex: 1,
-            bgcolor: "#4ade80",
-            color: "white",
+            bgcolor: "marketCard.yes.background",
+            color: "marketCard.yes.main",
             textTransform: "none",
             fontSize: 13,
             py: 1.25,
-            "&:hover": { bgcolor: "#22c55e" },
+            "&:hover": { color:'white',bgcolor: "marketCard.yes.main" },
           }}
         >
           Yes
@@ -80,12 +107,13 @@ function MarketCard({
           onClick={onNo}
           sx={{
             flex: 1,
-            bgcolor: "#f87171",
+            bgcolor: "marketCard.no.background",
             color: "white",
+            color:'marketCard.no.main',
             textTransform: "none",
             fontSize: 13,
             py: 1.25,
-            "&:hover": { bgcolor: "#ef4444" },
+            "&:hover": { color:'white',bgcolor: "marketCard.no.main" },
           }}
         >
           No
@@ -105,7 +133,8 @@ function MarketCard({
           ${volume} Vol.
         </Typography>
         <Typography sx={{ fontSize: 11, color: "rgba(255,255,255,0.7)" }}>
-          Chance: {probability}%
+          
+          plch
         </Typography>
       </Box>
     </Card>
