@@ -8,7 +8,8 @@ import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Logo from '../Logo'
-import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn.jsx";
+import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn";
+import HowItWorksButton from "../components/HowItWorkButton/HowItWorkButton";
 
 
 const Search = styled("div")(({ theme }) => ({
