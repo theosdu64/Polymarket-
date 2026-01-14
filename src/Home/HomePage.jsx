@@ -41,7 +41,8 @@ export default function Home() {
                         <Grid item xs={12} sm={6} md={4} lg={3} key={market.id}>
                             <MarketCard
                                 title={market.title}
-                                probability={market.outcomes[0].probability}
+                                imageUrl={market.image}                        
+                                probability={Math.round(market.outcomes[0].probability * 100)}
                                 volume={market.volume}
                                 onClick={() => navigate(`/card/${market.id}`)}
                                 onYes={() => console.log("YES", market.id)}
