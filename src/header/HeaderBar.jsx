@@ -10,6 +10,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Logo from '../Logo'
 import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn";
 import HowItWorksButton from "../components/HowItWorkButton/HowItWorkButton";
+import BurgerMenu from "../components/BurgerMenu/BurgerMenu.jsx";
 
 
 const Search = styled("div")(({ theme }) => ({
@@ -71,7 +72,8 @@ export default function HeaderBar() {
             />
           </Search>
           <HowItWorksButton />
-          <LoginSignUpBtn />       
+          <LoginSignUpBtn />
+          <BurgerMenu />
 
         </Toolbar>
       </AppBar>
