@@ -27,6 +27,7 @@ export default function Home() {
                     top: 0,
                     zIndex: 1100,
                     backgroundColor: "background.default",
+                    borderBottom: "1px solid #3d5266",
                 }}
             >
                 <Container>
