@@ -1,8 +1,8 @@
 .MenuTop1  div.MuiTabs-list{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     background-color:#1d2b3a ;
 
 }
@@ -13,10 +13,12 @@
     font-weight:500;
     align-items: center;
     cursor: pointer;
-    padding: 10px 4px;
+    padding: 10px 16px;
     text-decoration: none;
     font-family: "Open Sauce Sans", "Open Sauce One", "ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     text-transform: none;
+    max-width: unset;
+    min-width: unset;
 }
 
 .MenuTop1  button:hover {
