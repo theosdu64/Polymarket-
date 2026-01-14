@@ -2,33 +2,33 @@ import React from "react";
 import { Box, CircularProgress, Typography } from "@mui/material";
 
 function ProbabilitySemiCircle({ value = 30 }) {
-  // Determina a cor baseada na porcentagem
+  // Determine color according to percent
   const getColor = (val) => {
-    if (val >= 70) return "success.main"; // verde
-    if (val >= 40) return "warning.main"; // amarelo
-    return "error.main"; // vermelho
+    if (val >= 70) return "success.main";
+    if (val >= 40) return "warning.main";
+    return "error.main";
   };
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    //<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <Box
         sx={{
           position: "relative",
           display: "inline-flex",
-          transform: "rotate(-90deg)", // compensa o rotate do box
+          transform: "rotate(-90deg)",
           width: 100,
-          height: 100, // metade da altura para semi-círculo
+          height: 100, 
           overflow: "hidden",
         }}
       >
         <Box position="relative" display="inline-flex">
           <CircularProgress
             variant="determinate"
-            value={50} // linha de referência de 50%
+            value={50}
             size={50}
             thickness={3}
             sx={{
-              color: "#e0e0e0", // cor da linha de background
+              color: "#e0e0e0", 
               position: "absolute",
               left: 0,
             }}
@@ -36,7 +36,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
 
           <CircularProgress
             variant="determinate"
-            value={value / 2} // progresso real
+            value={value / 2}
             size={50}
             thickness={3}
             sx={{
@@ -46,7 +46,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
         </Box>
 
 
-        {/* Texto centralizado dentro do semi-círculo */}
+
         <Box
           sx={{
             position: "absolute",
@@ -57,7 +57,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            transform: "rotate(90deg)", // compensa o rotate do box
+            transform: "rotate(90deg)", 
           }}
         >
           <Typography variant="caption" color="textPrimary">
@@ -65,7 +65,7 @@ function ProbabilitySemiCircle({ value = 30 }) {
           </Typography>
         </Box>
       </Box>
-    </Box>
+    //</Box>
   );
 }
 

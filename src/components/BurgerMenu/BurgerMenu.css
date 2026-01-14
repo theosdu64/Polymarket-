@@ -1,0 +1,7 @@
+#burger-menu {
+    margin-left: 10px;
+}
+#burger-menu:hover {
+    background-color: #2f3f50;
+    border-radius: 30%;
+}

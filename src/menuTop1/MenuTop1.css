@@ -1,22 +1,37 @@
-.menu-top-1 div{
+.MenuTop1  div.MuiTabs-list{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     background-color:#1d2b3a ;
 
 }
-.menu-top-1 a {
-    color:#77808d;
+.MenuTop1  button {
+    color:rgb(142, 160, 181);
     display: inline-flex;
+    font-size: 14px;
+    font-weight:500;
     align-items: center;
     cursor: pointer;
-    padding: 10px 4px;
+    padding: 10px 16px;
     text-decoration: none;
-    font-family: "Open Sauce One", "ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-
+    font-family: "Open Sauce Sans", "Open Sauce One", "ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-transform: none;
+    max-width: unset;
+    min-width: unset;
 }
 
-.menu-top-1 a:hover {
-    color:#fff;
+.MenuTop1  button:hover {
+    color:rgb(242, 242, 242);
+    outline-color:oklab(0.871681 -0.00188783 -0.00914586 / 0.5)
+}
+#new::after {
+    content: '""';
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 50%;
+    width: 1px;
+    background-color: rgb(142, 160, 181);;
+    outline: none;
 }
