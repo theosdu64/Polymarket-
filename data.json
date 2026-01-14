@@ -43,6 +43,34 @@
       ]
     },
     {
+      "id": "climate-2026-hottest-year",
+      "title": "Will 2026 be the hottest year ever recorded globally?",
+      "category": "Climate & Science",
+      "status": "open",
+      "image": "/images/warming.png",
+      "description": "Resolves YES if global temperature data from major scientific agencies (NASA, NOAA, or Copernicus) rank 2026 as the hottest year on record.",
+      "volume": 58000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.46, "price": 0.46 },
+        { "id": "no", "label": "No", "probability": 0.54, "price": 0.54 }
+      ]
+    },
+    {
+      "id": "science-2026-fusion-breakthrough",
+      "title": "Will a net-positive nuclear fusion experiment be independently replicated in 2026?",
+      "category": "Climate & Science",
+      "status": "open",
+      "image": "/images/fusion.png",
+      "description": "Resolves YES if an independent laboratory successfully replicates a net-positive energy nuclear fusion result during 2026.",
+      "volume": 41000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
+        { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
+      ]
+    },
+    {
       "id": "climate-2c-2035",
       "title": "Will global warming exceed 2°C by 2035?",
       "category": "Environment",
@@ -113,6 +141,34 @@
       ]
     },
     {
+      "id": "elections-2026-global-elections-count",
+      "title": "Will more than 50 countries hold national elections in 2026?",
+      "category": "Elections",
+      "status": "open",
+      "image": "/images/elections.png",
+      "description": "Resolves YES if more than 50 countries hold a national-level election (presidential or legislative) during calendar year 2026.",
+      "volume": 44000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.57, "price": 0.57 },
+        { "id": "no", "label": "No", "probability": 0.43, "price": 0.43 }
+      ]
+    },
+    {
+      "id": "elections-2026-voter-turnout-increase",
+      "title": "Will voter turnout increase in a majority of 2026 national elections compared to the previous cycle?",
+      "category": "Elections",
+      "status": "open",
+      "image": "/images/elections2.png",
+      "description": "Resolves YES if more than half of countries holding national elections in 2026 record higher voter turnout than in their previous comparable election.",
+      "volume": 39000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.41, "price": 0.41 },
+        { "id": "no", "label": "No", "probability": 0.59, "price": 0.59 }
+      ]
+    },
+    {
       "id": "renewable-energy-50pct-2030",
       "title": "Will 50% of global energy come from renewables by 2030?",
       "category": "Environment",
@@ -140,203 +196,344 @@
         { "id": "no", "label": "No", "probability": 0.75, "price": 0.75 }
       ]
     },
-  
+
     {
-    "id": "fusion-energy-2035",
-    "title": "Will commercial nuclear fusion energy be achieved by 2035?",
-    "category": "Science",
-    "status": "open",
-    "image": "/images/fusion.png",
-    "description": "Resolves YES if nuclear fusion becomes commercially viable by 2035.",
-    "volume": 200000,
-    "endDate": "2035-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
-      { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
-    ]
+      "id": "fusion-energy-2035",
+      "title": "Will commercial nuclear fusion energy be achieved by 2035?",
+      "category": "Science",
+      "status": "open",
+      "image": "/images/fusion.png",
+      "description": "Resolves YES if nuclear fusion becomes commercially viable by 2035.",
+      "volume": 200000,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
+        { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
+      ]
     },
-  {
-    "id": "ai-robot-doctor-2030",
-    "title": "Will an AI robot perform surgeries autonomously by 2030?",
-    "category": "AI",
-    "status": "open",
-    "image": "/images/robotic_surgery.png",
-    "description": "Resolves YES if an AI robot can perform surgeries without human intervention by 2030.",
-    "volume": 180000,
-    "endDate": "2030-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.31, "price": 0.31 },
-      { "id": "no", "label": "No", "probability": 0.69, "price": 0.69 }
-    ]
-  },
-  {
-    "id": "electric-planes-2035",
-    "title": "Will commercial electric planes be widely in use by 2035?",
-    "category": "Tech",
-    "status": "open",
-    "image": "/images/electric_plane.png",
-    "description": "Resolves YES if electric planes are used for commercial passenger flights by 2035.",
-    "volume": 150000,
-    "endDate": "2035-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.29, "price": 0.29 },
-      { "id": "no", "label": "No", "probability": 0.71, "price": 0.71 }
-    ]
-  },
-  {
-    "id": "quantum-internet-2030",
-    "title": "Will a global quantum internet be operational by 2030?",
-    "category": "Tech",
-    "status": "open",
-    "image": "/images/quantum_internet.png",
-    "description": "Resolves YES if a global quantum communication network exists by 2030.",
-    "volume": 140000,
-    "endDate": "2030-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
-      { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
-    ]
-  },
     {
-    "id": "nba-2026-champion",
-    "title": "Will the Los Angeles Lakers win the 2026 NBA Championship?",
-    "category": "Sport",
-    "status": "open",
-    "image": "/images/nba_championship.png",
-    "description": "Resolves YES if the Lakers win the 2026 NBA Finals.",
-    "volume": 68000,
-    "endDate": "2026-06-20",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.28, "price": 0.28 },
-      { "id": "no", "label": "No", "probability": 0.72, "price": 0.72 }
-    ]
-  },
-  {
-    "id": "ai-legal-judge-2035",
-    "title": "Will AI systems be authorized as official judges in courts by 2035?",
-    "category": "AI",
-    "status": "open",
-    "image": "/images/ai_judge.png",
-    "description": "Resolves YES if AI can legally issue binding rulings in courts by 2035.",
-    "volume": 90000,
-    "endDate": "2035-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.21, "price": 0.21 },
-      { "id": "no", "label": "No", "probability": 0.79, "price": 0.79 }
-    ]
-  },
-  {
-    "id": "autonomous-shipping-2030",
-    "title": "Will fully autonomous cargo ships be operational by 2030?",
-    "category": "Tech",
-    "status": "open",
-    "image": "/images/autonomous_ship.png",
-    "description": "Resolves YES if cargo ships operate fully autonomously by 2030.",
-    "volume": 110000,
-    "endDate": "2030-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.33, "price": 0.33 },
-      { "id": "no", "label": "No", "probability": 0.67, "price": 0.67 }
-    ]
-  },
-   {
-    "id": "world-cup-2027-winner",
-    "title": "Will Brazil win the 2027 FIFA World Cup?",
-    "category": "Sport",
-    "status": "open",
-    "image": "/images/world_cup_2027.png",
-    "description": "Resolves YES if Brazil wins the 2027 FIFA World Cup.",
-    "volume": 92000,
-    "endDate": "2027-07-15",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.35, "price": 0.35 },
-      { "id": "no", "label": "No", "probability": 0.65, "price": 0.65 }
-    ]
-  },
-  
-  {
-    "id": "space-mining-2035",
-    "title": "Will asteroid mining be commercially viable by 2035?",
-    "category": "Science",
-    "status": "open",
-    "image": "/images/asteroid_mining.png",
-    "description": "Resolves YES if companies extract resources from asteroids profitably by 2035.",
-    "volume": 95000,
-    "endDate": "2035-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.18, "price": 0.18 },
-      { "id": "no", "label": "No", "probability": 0.82, "price": 0.82 }
-    ]
-  },
+      "id": "ai-robot-doctor-2030",
+      "title": "Will an AI robot perform surgeries autonomously by 2030?",
+      "category": "AI",
+      "status": "open",
+      "image": "/images/robotic_surgery.png",
+      "description": "Resolves YES if an AI robot can perform surgeries without human intervention by 2030.",
+      "volume": 180000,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.31, "price": 0.31 },
+        { "id": "no", "label": "No", "probability": 0.69, "price": 0.69 }
+      ]
+    },
     {
-    "id": "f1-2026-champion",
-    "title": "Will Max Verstappen win the 2026 Formula 1 World Championship?",
-    "category": "Sport",
-    "status": "open",
-    "image": "/images/f1.png",
-    "description": "Resolves YES if Max Verstappen is the 2026 F1 World Champion.",
-    "volume": 47000,
-    "endDate": "2026-12-12",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.40, "price": 0.40 },
-      { "id": "no", "label": "No", "probability": 0.60, "price": 0.60 }
-    ]
-  },
-  {
-    "id": "brain-computer-2030",
-    "title": "Will brain-computer interfaces be widely adopted by 2030?",
-    "category": "Tech",
-    "status": "open",
-    "image": "/images/brain_interface.png",
-    "description": "Resolves YES if brain-computer interfaces are commonly used by consumers by 2030.",
-    "volume": 125000,
-    "endDate": "2030-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.24, "price": 0.24 },
-      { "id": "no", "label": "No", "probability": 0.76, "price": 0.76 }
-    ]
-  },
-  {
-    "id": "world-peace-2040",
-    "title": "Will there be no major international wars by 2040?",
-    "category": "Politics",
-    "status": "open",
-    "image": "/images/peace.png",
-    "description": "Resolves YES if no major international armed conflict occurs by 2040.",
-    "volume": 70000,
-    "endDate": "2040-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.43, "price": 0.43 },
-      { "id": "no", "label": "No", "probability": 0.57, "price": 0.57 }
-    ]
-  },
-  {
-    "id": "ocean-cleanup-2035",
-    "title": "Will more than 50% of ocean plastic be removed by 2035?",
-    "category": "Environment",
-    "status": "open",
-    "image": "/images/ocean_cleanup.png",
-    "description": "Resolves YES if over half of plastic waste is removed from oceans by 2035.",
-    "volume": 85000,
-    "endDate": "2035-01-01",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
-      { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
-    ]
-  },
+      "id": "electric-planes-2035",
+      "title": "Will commercial electric planes be widely in use by 2035?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/electric_plane.png",
+      "description": "Resolves YES if electric planes are used for commercial passenger flights by 2035.",
+      "volume": 150000,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.29, "price": 0.29 },
+        { "id": "no", "label": "No", "probability": 0.71, "price": 0.71 }
+      ]
+    },
     {
-    "id": "olympics-2032-marathon",
-    "title": "Will the 2032 Olympic marathon gold medalist set a new Olympic record?",
-    "category": "Sport",
-    "status": "open",
-    "image": "/images/olympics.png",
-    "description": "Resolves YES if a new Olympic record is set in the marathon at 2032 Olympics.",
-    "volume": 32000,
-    "endDate": "2032-08-15",
-    "outcomes": [
-      { "id": "yes", "label": "Yes", "probability": 0.15, "price": 0.15 },
-      { "id": "no", "label": "No", "probability": 0.85, "price": 0.85 }
-    ]
-  }
-]
+      "id": "quantum-internet-2030",
+      "title": "Will a global quantum internet be operational by 2030?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/quantum_internet.png",
+      "description": "Resolves YES if a global quantum communication network exists by 2030.",
+      "volume": 140000,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
+        { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
+      ]
+    },
+    {
+      "id": "nba-2026-champion",
+      "title": "Will the Los Angeles Lakers win the 2026 NBA Championship?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/nba_championship.png",
+      "description": "Resolves YES if the Lakers win the 2026 NBA Finals.",
+      "volume": 68000,
+      "endDate": "2026-06-20",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.28, "price": 0.28 },
+        { "id": "no", "label": "No", "probability": 0.72, "price": 0.72 }
+      ]
+    },
+    {
+      "id": "ai-legal-judge-2035",
+      "title": "Will AI systems be authorized as official judges in courts by 2035?",
+      "category": "AI",
+      "status": "open",
+      "image": "/images/ai_judge.png",
+      "description": "Resolves YES if AI can legally issue binding rulings in courts by 2035.",
+      "volume": 90000,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.21, "price": 0.21 },
+        { "id": "no", "label": "No", "probability": 0.79, "price": 0.79 }
+      ]
+    },
+    {
+      "id": "autonomous-shipping-2030",
+      "title": "Will fully autonomous cargo ships be operational by 2030?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/autonomous_ship.png",
+      "description": "Resolves YES if cargo ships operate fully autonomously by 2030.",
+      "volume": 110000,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.33, "price": 0.33 },
+        { "id": "no", "label": "No", "probability": 0.67, "price": 0.67 }
+      ]
+    },
+    {
+      "id": "world-cup-2027-winner",
+      "title": "Will Brazil win the 2027 FIFA World Cup?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/world_cup_2027.png",
+      "description": "Resolves YES if Brazil wins the 2027 FIFA World Cup.",
+      "volume": 92000,
+      "endDate": "2027-07-15",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.35, "price": 0.35 },
+        { "id": "no", "label": "No", "probability": 0.65, "price": 0.65 }
+      ]
+    },
+
+    {
+      "id": "space-mining-2035",
+      "title": "Will asteroid mining be commercially viable by 2035?",
+      "category": "Science",
+      "status": "open",
+      "image": "/images/asteroid_mining.png",
+      "description": "Resolves YES if companies extract resources from asteroids profitably by 2035.",
+      "volume": 95000,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.18, "price": 0.18 },
+        { "id": "no", "label": "No", "probability": 0.82, "price": 0.82 }
+      ]
+    },
+    {
+      "id": "f1-2026-champion",
+      "title": "Will Max Verstappen win the 2026 Formula 1 World Championship?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/f1.png",
+      "description": "Resolves YES if Max Verstappen is the 2026 F1 World Champion.",
+      "volume": 47000,
+      "endDate": "2026-12-12",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.4, "price": 0.4 },
+        { "id": "no", "label": "No", "probability": 0.6, "price": 0.6 }
+      ]
+    },
+    {
+      "id": "economy-2026-us-recession",
+      "title": "Will the United States enter a recession in 2026?",
+      "category": "Economy",
+      "status": "open",
+      "image": "/images/us.png",
+      "description": "Resolves YES if the U.S. records two consecutive quarters of negative GDP growth at any point in 2026.",
+      "volume": 72000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.38, "price": 0.38 },
+        { "id": "no", "label": "No", "probability": 0.62, "price": 0.62 }
+      ]
+    },
+    {
+      "id": "economy-2026-fed-rate-cuts",
+      "title": "Will the Federal Reserve cut interest rates at least twice in 2026?",
+      "category": "Economy",
+      "status": "open",
+      "image": "/images/federal.png",
+      "description": "Resolves YES if the Federal Reserve announces two or more rate cuts during calendar year 2026.",
+      "volume": 65000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
+        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+      ]
+    },
+    {
+      "id": "geo-2026-ukraine-war",
+      "title": "Will the war in Ukraine officially end in 2026?",
+      "category": "Geopolitics",
+      "status": "open",
+      "image": "/images/ukraine.png",
+      "description": "Resolves YES if an official peace agreement or ceasefire is signed ending the Ukraine war in 2026.",
+      "volume": 52000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.35, "price": 0.35 },
+        { "id": "no", "label": "No", "probability": 0.65, "price": 0.65 }
+      ]
+    },
+    {
+      "id": "geo-2026-china-taiwan",
+      "title": "Will China take military action against Taiwan before the end of 2026?",
+      "category": "Geopolitics",
+      "status": "open",
+      "image": "/images/taiwan.png",
+      "description": "Resolves YES if China launches a direct military action against Taiwan before December 31, 2026.",
+      "volume": 61000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.25, "price": 0.25 },
+        { "id": "no", "label": "No", "probability": 0.75, "price": 0.75 }
+      ]
+    },
+
+    {
+      "id": "brain-computer-2030",
+      "title": "Will brain-computer interfaces be widely adopted by 2030?",
+      "category": "Tech",
+      "status": "open",
+      "image": "/images/brain_interface.png",
+      "description": "Resolves YES if brain-computer interfaces are commonly used by consumers by 2030.",
+      "volume": 125000,
+      "endDate": "2030-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.24, "price": 0.24 },
+        { "id": "no", "label": "No", "probability": 0.76, "price": 0.76 }
+      ]
+    },
+    {
+      "id": "world-2026-global-recession",
+      "title": "Will the world enter a global recession in 2026?",
+      "category": "World",
+      "status": "open",
+      "image": "/images/recession.png",
+      "description": "Resolves YES if a majority of major economies officially enter a recession at any point during 2026.",
+      "volume": 68000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.42, "price": 0.42 },
+        { "id": "no", "label": "No", "probability": 0.58, "price": 0.58 }
+      ]
+    },
+    {
+      "id": "world-2026-population-8-5b",
+      "title": "Will the global population exceed 8.5 billion by the end of 2026?",
+      "category": "World",
+      "status": "open",
+      "image": "/images/population.png",
+      "description": "Resolves YES if official UN or World Bank estimates show the global population surpassing 8.5 billion before December 31, 2026.",
+      "volume": 36000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.3, "price": 0.3 },
+        { "id": "no", "label": "No", "probability": 0.7, "price": 0.7 }
+      ]
+    },
+    {
+      "id": "earnings-2026-apple-record",
+      "title": "Will Apple report record annual revenue in fiscal year 2026?",
+      "category": "Earnings",
+      "status": "open",
+      "image": "/images/apple.png",
+      "description": "Resolves YES if Apple reports its highest-ever annual revenue in fiscal year 2026.",
+      "volume": 54000,
+      "endDate": "2026-10-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
+        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+      ]
+    },
+    {
+      "id": "earnings-2026-nvidia-earnings-growth",
+      "title": "Will Nvidia report year-over-year earnings growth in every quarter of 2026?",
+      "category": "Earnings",
+      "status": "open",
+      "image": "/images/nvidia.png",
+      "description": "Resolves YES if Nvidia reports higher earnings year-over-year in all four quarters of 2026.",
+      "volume": 62000,
+      "endDate": "2027-02-15",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.48, "price": 0.48 },
+        { "id": "no", "label": "No", "probability": 0.52, "price": 0.52 }
+      ]
+    },
+    {
+      "id": "world-peace-2040",
+      "title": "Will there be no major international wars by 2040?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/peace.png",
+      "description": "Resolves YES if no major international armed conflict occurs by 2040.",
+      "volume": 70000,
+      "endDate": "2040-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.43, "price": 0.43 },
+        { "id": "no", "label": "No", "probability": 0.57, "price": 0.57 }
+      ]
+    },
+    {
+      "id": "ocean-cleanup-2035",
+      "title": "Will more than 50% of ocean plastic be removed by 2035?",
+      "category": "Environment",
+      "status": "open",
+      "image": "/images/ocean_cleanup.png",
+      "description": "Resolves YES if over half of plastic waste is removed from oceans by 2035.",
+      "volume": 85000,
+      "endDate": "2035-01-01",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
+        { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
+      ]
+    },
+    {
+      "id": "culture-2026-top-movie",
+      "title": "Will a movie released in 2026 gross over $1 billion worldwide?",
+      "category": "Culture",
+      "status": "open",
+      "image": "/images/movie.png",
+      "description": "Resolves YES if any movie released in 2026 surpasses $1 billion in global box office revenue.",
+      "volume": 43000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.65, "price": 0.65 },
+        { "id": "no", "label": "No", "probability": 0.35, "price": 0.35 }
+      ]
+    },
+    {
+      "id": "culture-2026-global-hit-song",
+      "title": "Will a song released in 2026 reach #1 on both Spotify Global and Billboard Hot 100?",
+      "category": "Culture",
+      "status": "open",
+      "image": "/images/song.png",
+      "description": "Resolves YES if at least one song released in 2026 reaches #1 on both Spotify Global and Billboard Hot 100 charts.",
+      "volume": 39000,
+      "endDate": "2026-12-31",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.45, "price": 0.45 },
+        { "id": "no", "label": "No", "probability": 0.55, "price": 0.55 }
+      ]
+    },
+    {
+      "id": "olympics-2032-marathon",
+      "title": "Will the 2032 Olympic marathon gold medalist set a new Olympic record?",
+      "category": "Sports",
+      "status": "open",
+      "image": "/images/olympics.png",
+      "description": "Resolves YES if a new Olympic record is set in the marathon at 2032 Olympics.",
+      "volume": 32000,
+      "endDate": "2032-08-15",
+      "outcomes": [
+        { "id": "yes", "label": "Yes", "probability": 0.15, "price": 0.15 },
+        { "id": "no", "label": "No", "probability": 0.85, "price": 0.85 }
+      ]
+    }
+  ]
 }
