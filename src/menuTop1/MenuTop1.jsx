@@ -1,7 +1,7 @@
 import './MenuTop1.css'
 import {Tabs, Tab, Badge} from '@mui/material';
 import Box from "@mui/material/Box";
-export default function MenuTop1() {
+export default function MenuTop1({ onChangeCategory }) {
     return (
         <Tabs className="MenuTop1"
 
@@ -45,20 +45,21 @@ export default function MenuTop1() {
             />
 
             <Tab label="Breaking" />
-            <Tab id="new" label="New" />
-            <Tab label="Politics" />
-            <Tab label="Sports" />
-            <Tab label="Crypto" />
-            <Tab label="Finance" />
-            <Tab label="Geopolitics" />
-            <Tab label="Earnings" />
-            <Tab label="Tech" />
-            <Tab label="Culture" />
-            <Tab label="World" />
-            <Tab label="Economy" />
-            <Tab label="Climate & Science" />
-            <Tab label="Elections" />
-            <Tab label="Mentions" />
+            <Tab label="All" onClick={() => onChangeCategory("All")} />
+            <Tab id="new" label="New"  onClick={() => onChangeCategory("New")}/>
+            <Tab label="Politics" onClick={() => onChangeCategory("Politics")}/>
+            <Tab label="Sports" onClick={() => onChangeCategory("Sports")}/>
+            <Tab label="Crypto" onClick={() => onChangeCategory("Crypto")}/>
+            <Tab label="Finance" onClick={() => onChangeCategory("Finance")}/>
+            <Tab label="Geopolitics" onClick={() => onChangeCategory("Geopolitics")}/>
+            <Tab label="Earnings" onClick={() => onChangeCategory("Earnings")}/>
+            <Tab label="Tech" onClick={() => onChangeCategory("Tech")}/>
+            <Tab label="Culture" onClick={() => onChangeCategory("Culture")}/>
+            <Tab label="World" onClick={() => onChangeCategory("World")}/>
+            <Tab label="Economy" onClick={() => onChangeCategory("Economy")}/>
+            <Tab label="Climate & Science" onClick={() => onChangeCategory("Climate & Science")} />
+            <Tab label="Elections" onClick={() => onChangeCategory("Elections")}/>
+            <Tab label="Mentions" onClick={() => onChangeCategory("Mentions")}/>
         </Tabs>
     )
 }
