@@ -16,10 +16,10 @@ const steps = [
     image: "/images/HowItWork1.png",
     content: (
       <>
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom fontWeight="bold">
           1. Pick a Polymarket
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ color: "#899cb2" }}>
           Buy 'Yes' or 'No' shares depending on your prediction. Buying shares
           is like betting on the outcome. Odds shift in real time as other
           traders bet.
@@ -31,10 +31,10 @@ const steps = [
     image: "/images/HowItWork2.png",
     content: (
       <>
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom fontWeight="bold">
           2. Place a Bet
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ color: "#899cb2" }}>
           Fund your account with crypto, credit/debit card, or bank
           transfer—then you're ready to bet. No bet limits and no fees.
         </Typography>
@@ -45,10 +45,10 @@ const steps = [
     image: "/images/HowItWork3.png",
     content: (
       <>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" gutterBottom fontWeight="bold">
           3. Profit 🤑
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ color: "#899cb2" }}>
           Sell your 'Yes' or 'No' shares at any time, or wait until the market
           ends to redeem winning shares for $1 each. Create an account and place
           your first trade in minutes.
@@ -88,11 +88,15 @@ export default function How() {
   // -----------------------------
   return (
     <>
-      {/* Bouton principal pour ouvrir la popup "How it works" */}
       <Button
         color="info"
         startIcon={<InfoIcon />}
-        sx={{ ml: 2, height: 40, whiteSpace: "nowrap" }}
+        sx={{
+          ml: 2,
+          height: 40,
+          whiteSpace: "nowrap",
+          textTransform: "none",
+        }}
         onClick={() => setOpen(true)}
       >
         How it works
@@ -100,15 +104,17 @@ export default function How() {
 
       {/* Popup Dialog */}
       <Dialog
-        open={open} // ouverture selon l'état
-        onClose={() => setOpen(false)} // fermer quand on clique en dehors
-        maxWidth="sm" // largeur maximale du dialogue
-        fullWidth
+        open={open}
+        onClose={() => setOpen(false)}
+        maxWidth="xs" // largeur plus petite
+        fullWidth={false} // empêche l'étirement automatique
         slotProps={{
-          // style personnalisé du papier (background)
           paper: {
             sx: {
               backgroundColor: theme.palette.background.default,
+              width: 600,
+              minHeight: 200, // hauteur augmentée
+              borderRadius: 3,
             },
           },
         }}
