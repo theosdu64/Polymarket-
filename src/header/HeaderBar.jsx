@@ -11,7 +11,7 @@ import Logo from '../Logo'
 import LoginSignUpBtn from "../LoginSignUpBtn/LoginSignUpBtn";
 import HowItWorksButton from "../components/HowItWorkButton/HowItWorkButton";
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu.jsx";
-
+import './header.css'
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -71,10 +71,11 @@ export default function HeaderBar() {
               inputProps={{ "aria-label": "search" }}
             />
           </Search>
+          <div className='right-container' >
           <HowItWorksButton />
+          </div>
           <LoginSignUpBtn />
           <BurgerMenu />
-
         </Toolbar>
       </AppBar>
     </Box>
