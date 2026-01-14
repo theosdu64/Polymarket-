@@ -147,9 +147,20 @@ export default function How() {
 
         {/* Boutons en bas de la popup */}
         <DialogActions sx={{ justifyContent: "center", pb: 2 }}>
-          <Button variant="contained" onClick={handleNext}>
-            {/* Change le texte selon l'étape : "Suivant" ou "Fermer" */}
-            {activeStep === steps.length - 1 ? "Fermer" : "Suivant"}
+          <Button
+            variant="contained"
+            onClick={handleNext}
+            sx={{
+              width: "97%", // <-- largeur à 90% de la popup
+              backgroundColor: "#2c9cdb",
+              color: "#fff",
+              textTransform: "none", // empêche les majuscules
+              "&:hover": {
+                backgroundColor: "#2380b8",
+              },
+            }}
+          >
+            {activeStep === steps.length - 1 ? "Get Started" : "Next"}
           </Button>
         </DialogActions>
       </Dialog>
