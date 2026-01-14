@@ -13,8 +13,8 @@ import HowItWorksButton from "../components/HowItWorkButton/HowItWorkButton";
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu.jsx";
 import './header.css'
 
-const Search = styled("div")(({ theme }) => ({
-  position: "relative",
+const Search = styled('div')(({ theme }) => ({
+  position: 'relative', 
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   "&:hover": {
@@ -40,16 +40,16 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: "inherit",
-  width: "100%",
-  "& .MuiInputBase-input": {
-    padding: theme.spacing(1.5, 1, 1.5, 0),
+  color: 'inherit',
+  width: '100%',
+  '& .MuiInputBase-input': {
+    padding: theme.spacing(1, 1, 1, 0),
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    fontSize: "1rem",
-    [theme.breakpoints.up("sm")]: {
-      width: "30ch",
-      "&:focus": {
-        width: "50ch",
+    transition: theme.transitions.create('width'),
+    [theme.breakpoints.up('sm')]: {
+      width: '12ch',
+      '&:focus': {
+        width: '20ch',
       },
     },
   },
@@ -58,17 +58,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function HeaderBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" elevation={0}>
-        <Toolbar sx={{ py: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
           <Logo />
-
-          <Search sx={{ flexGrow: 1, maxWidth: 800 }}>
+          <Search>
             <SearchIconWrapper>
-              <SearchIcon sx={{ fontSize: 24 }} />
+              <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search markets..."
-              inputProps={{ "aria-label": "search" }}
+              placeholder="Search…"
+              inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
           <div className='right-container' >

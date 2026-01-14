@@ -141,7 +141,7 @@ function MarketCard({
         </Typography>
       </Box>
     </Card>
-  );
+    );
 }
 
 export default MarketCard;
