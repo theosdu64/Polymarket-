@@ -1,6 +1,30 @@
 {
   "markets": [
     {
+      "id": "us-strikes-iran",
+      "title": "US strikes Iran by...?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/us_iran.png",
+      "description": "Will the US strike Iran by the specified date?",
+      "volume": 45000000,
+      "type": "multi-deadline",
+      "deadlines": [
+        {
+          "id": "jan-18",
+          "label": "January 18",
+          "probability": 0.27,
+          "endDate": "2025-01-18"
+        },
+        {
+          "id": "jan-23",
+          "label": "January 23",
+          "probability": 0.41,
+          "endDate": "2025-01-23"
+        }
+      ]
+    },
+    {
       "id": "mars-colony-2030",
       "title": "Will a permanent human colony be established on Mars by 2030?",
       "category": "Science",
