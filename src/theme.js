@@ -21,17 +21,17 @@ export const theme = createTheme({
     background: {
       default: "#1d2b3a",
     },
-    marketCard: {          // cor personalizada para MarketCard
+    marketCard: {          
       background: "#2F3F50",
       yes:{
         main:"#43c773",
         background:'#325455'
-      } ,     // botão “Yes”
+      } ,     
       no:{ 
         main:"#e13737",
         background:"#4b3f4c",
-      },       // botão “No”
-      text: "#f2f2f2",     // texto dentro do card
+      },       
+      text: "#f2f2f2",     
     },
   },
 });

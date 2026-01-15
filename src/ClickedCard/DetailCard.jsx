@@ -11,7 +11,6 @@ import DropdownToggleButton from "../components/DropdownToggleButton";
 
 export default function DetailCard() {
   const { id } = useParams();
-  //get object from json
 
   const [bet, setBet] = useState(null);
 

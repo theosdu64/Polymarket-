@@ -42,7 +42,6 @@ function MarketCard({
         },
       }}
     >
-      {/* LINE 1 */}
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
         <Box
           component="img"
