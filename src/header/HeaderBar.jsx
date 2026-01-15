@@ -45,7 +45,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function HeaderBar() {
   return (
-    <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center', py: 2 }}>
+    <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center' ,py: 2 }}>
       <Logo />
       
       <Search>
@@ -58,7 +58,7 @@ export default function HeaderBar() {
         />
       </Search>
       
-      <Box sx={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+      <Box sx={{ display: 'flex', alignItems: 'center'}}>
         <HowItWorksButton />
         <LoginSignUpBtn />
         <BurgerMenu />

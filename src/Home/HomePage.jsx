@@ -17,30 +17,26 @@ export default function Home() {
       : Data.markets.filter((market) => market.category === category);
 
   return (
-    <Box
+    <Container
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh", // Prend toute la hauteur de l'écran
+        minHeight: "100vh", 
       }}
     >
-      {/* Header sticky */}
       <Box
         sx={{
           position: "sticky",
           top: 0,
           zIndex: 1100,
-          backgroundColor: "background.default",
           borderBottom: "1px solid #3d5266",
+          backgroundColor : 'background.default'
         }}
       >
-        <Container maxWidth="xl">
           <HeaderBar />
           <MenuTop1 onChangeCategory={setCategory} />
-        </Container>
       </Box>
 
-      {/* Contenu principal - flex: 1 pour prendre tout l'espace disponible */}
       <Box sx={{ flex: 1 }}>
         <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
           <Grid container spacing={3}>
@@ -61,8 +57,7 @@ export default function Home() {
         </Container>
       </Box>
 
-      {/* Footer toujours en bas */}
       <Footer />
-    </Box>
+    </Container>
   );
 }

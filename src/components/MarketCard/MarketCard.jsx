@@ -25,8 +25,8 @@ function MarketCard({
         minHeight: 175,
         width: {
           xs: "100%",
-          sm: 320,
-          md: 340,
+          sm: 350,
+          md: 350,
         },
         display: "flex",
         flexDirection: "column",
