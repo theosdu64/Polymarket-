@@ -10,8 +10,18 @@
       "volume": 120000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.08, "price": 0.08 },
-        { "id": "no", "label": "No", "probability": 0.92, "price": 0.92 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.08,
+          "price": 0.08
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.92,
+          "price": 0.92
+        }
       ]
     },
     {
@@ -24,8 +34,18 @@
       "volume": 890000,
       "endDate": "2028-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.32, "price": 0.32 },
-        { "id": "no", "label": "No", "probability": 0.68, "price": 0.68 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.32,
+          "price": 0.32
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.68,
+          "price": 0.68
+        }
       ]
     },
     {
@@ -38,8 +58,18 @@
       "volume": 210000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.45, "price": 0.45 },
-        { "id": "no", "label": "No", "probability": 0.55, "price": 0.55 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.45,
+          "price": 0.45
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.55,
+          "price": 0.55
+        }
       ]
     },
     {
@@ -52,8 +82,18 @@
       "volume": 58000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.46, "price": 0.46 },
-        { "id": "no", "label": "No", "probability": 0.54, "price": 0.54 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.46,
+          "price": 0.46
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.54,
+          "price": 0.54
+        }
       ]
     },
     {
@@ -66,8 +106,18 @@
       "volume": 41000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
-        { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.22,
+          "price": 0.22
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.78,
+          "price": 0.78
+        }
       ]
     },
     {
@@ -80,8 +130,18 @@
       "volume": 470000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
-        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.55,
+          "price": 0.55
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.45,
+          "price": 0.45
+        }
       ]
     },
     {
@@ -94,8 +154,18 @@
       "volume": 780000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.52, "price": 0.52 },
-        { "id": "no", "label": "No", "probability": 0.48, "price": 0.48 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.52,
+          "price": 0.52
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.48,
+          "price": 0.48
+        }
       ]
     },
     {
@@ -108,8 +178,18 @@
       "volume": 190000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.36, "price": 0.36 },
-        { "id": "no", "label": "No", "probability": 0.64, "price": 0.64 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.36,
+          "price": 0.36
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.64,
+          "price": 0.64
+        }
       ]
     },
     {
@@ -122,8 +202,18 @@
       "volume": 240000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.18, "price": 0.18 },
-        { "id": "no", "label": "No", "probability": 0.82, "price": 0.82 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.18,
+          "price": 0.18
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.82,
+          "price": 0.82
+        }
       ]
     },
     {
@@ -136,8 +226,18 @@
       "volume": 350000,
       "endDate": "2029-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.44, "price": 0.44 },
-        { "id": "no", "label": "No", "probability": 0.56, "price": 0.56 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.44,
+          "price": 0.44
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.56,
+          "price": 0.56
+        }
       ]
     },
     {
@@ -150,8 +250,18 @@
       "volume": 44000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.57, "price": 0.57 },
-        { "id": "no", "label": "No", "probability": 0.43, "price": 0.43 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.57,
+          "price": 0.57
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.43,
+          "price": 0.43
+        }
       ]
     },
     {
@@ -164,8 +274,18 @@
       "volume": 39000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.41, "price": 0.41 },
-        { "id": "no", "label": "No", "probability": 0.59, "price": 0.59 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.41,
+          "price": 0.41
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.59,
+          "price": 0.59
+        }
       ]
     },
     {
@@ -178,8 +298,18 @@
       "volume": 320000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.28, "price": 0.28 },
-        { "id": "no", "label": "No", "probability": 0.72, "price": 0.72 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.28,
+          "price": 0.28
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.72,
+          "price": 0.72
+        }
       ]
     },
     {
@@ -192,11 +322,20 @@
       "volume": 150000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.25, "price": 0.25 },
-        { "id": "no", "label": "No", "probability": 0.75, "price": 0.75 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.25,
+          "price": 0.25
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.75,
+          "price": 0.75
+        }
       ]
     },
-
     {
       "id": "fusion-energy-2035",
       "title": "Will commercial nuclear fusion energy be achieved by 2035?",
@@ -207,8 +346,18 @@
       "volume": 200000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.22, "price": 0.22 },
-        { "id": "no", "label": "No", "probability": 0.78, "price": 0.78 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.22,
+          "price": 0.22
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.78,
+          "price": 0.78
+        }
       ]
     },
     {
@@ -221,8 +370,18 @@
       "volume": 180000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.31, "price": 0.31 },
-        { "id": "no", "label": "No", "probability": 0.69, "price": 0.69 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.31,
+          "price": 0.31
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.69,
+          "price": 0.69
+        }
       ]
     },
     {
@@ -235,8 +394,18 @@
       "volume": 150000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.29, "price": 0.29 },
-        { "id": "no", "label": "No", "probability": 0.71, "price": 0.71 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.29,
+          "price": 0.29
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.71,
+          "price": 0.71
+        }
       ]
     },
     {
@@ -249,8 +418,18 @@
       "volume": 140000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
-        { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.27,
+          "price": 0.27
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.73,
+          "price": 0.73
+        }
       ]
     },
     {
@@ -263,8 +442,18 @@
       "volume": 68000,
       "endDate": "2026-06-20",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.28, "price": 0.28 },
-        { "id": "no", "label": "No", "probability": 0.72, "price": 0.72 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.28,
+          "price": 0.28
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.72,
+          "price": 0.72
+        }
       ]
     },
     {
@@ -277,8 +466,18 @@
       "volume": 90000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.21, "price": 0.21 },
-        { "id": "no", "label": "No", "probability": 0.79, "price": 0.79 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.21,
+          "price": 0.21
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.79,
+          "price": 0.79
+        }
       ]
     },
     {
@@ -291,8 +490,18 @@
       "volume": 110000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.33, "price": 0.33 },
-        { "id": "no", "label": "No", "probability": 0.67, "price": 0.67 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.33,
+          "price": 0.33
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.67,
+          "price": 0.67
+        }
       ]
     },
     {
@@ -305,11 +514,20 @@
       "volume": 92000,
       "endDate": "2027-07-15",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.35, "price": 0.35 },
-        { "id": "no", "label": "No", "probability": 0.65, "price": 0.65 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.35,
+          "price": 0.35
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.65,
+          "price": 0.65
+        }
       ]
     },
-
     {
       "id": "space-mining-2035",
       "title": "Will asteroid mining be commercially viable by 2035?",
@@ -320,8 +538,18 @@
       "volume": 95000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.18, "price": 0.18 },
-        { "id": "no", "label": "No", "probability": 0.82, "price": 0.82 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.18,
+          "price": 0.18
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.82,
+          "price": 0.82
+        }
       ]
     },
     {
@@ -334,8 +562,18 @@
       "volume": 47000,
       "endDate": "2026-12-12",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.4, "price": 0.4 },
-        { "id": "no", "label": "No", "probability": 0.6, "price": 0.6 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.4,
+          "price": 0.4
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.6,
+          "price": 0.6
+        }
       ]
     },
     {
@@ -348,8 +586,18 @@
       "volume": 72000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.38, "price": 0.38 },
-        { "id": "no", "label": "No", "probability": 0.62, "price": 0.62 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.38,
+          "price": 0.38
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.62,
+          "price": 0.62
+        }
       ]
     },
     {
@@ -362,8 +610,18 @@
       "volume": 65000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
-        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.55,
+          "price": 0.55
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.45,
+          "price": 0.45
+        }
       ]
     },
     {
@@ -376,8 +634,18 @@
       "volume": 52000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.35, "price": 0.35 },
-        { "id": "no", "label": "No", "probability": 0.65, "price": 0.65 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.35,
+          "price": 0.35
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.65,
+          "price": 0.65
+        }
       ]
     },
     {
@@ -390,11 +658,20 @@
       "volume": 61000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.25, "price": 0.25 },
-        { "id": "no", "label": "No", "probability": 0.75, "price": 0.75 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.25,
+          "price": 0.25
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.75,
+          "price": 0.75
+        }
       ]
     },
-
     {
       "id": "brain-computer-2030",
       "title": "Will brain-computer interfaces be widely adopted by 2030?",
@@ -405,8 +682,18 @@
       "volume": 125000,
       "endDate": "2030-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.24, "price": 0.24 },
-        { "id": "no", "label": "No", "probability": 0.76, "price": 0.76 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.24,
+          "price": 0.24
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.76,
+          "price": 0.76
+        }
       ]
     },
     {
@@ -419,8 +706,18 @@
       "volume": 68000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.42, "price": 0.42 },
-        { "id": "no", "label": "No", "probability": 0.58, "price": 0.58 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.42,
+          "price": 0.42
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.58,
+          "price": 0.58
+        }
       ]
     },
     {
@@ -433,8 +730,18 @@
       "volume": 36000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.3, "price": 0.3 },
-        { "id": "no", "label": "No", "probability": 0.7, "price": 0.7 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.3,
+          "price": 0.3
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.7,
+          "price": 0.7
+        }
       ]
     },
     {
@@ -447,8 +754,18 @@
       "volume": 54000,
       "endDate": "2026-10-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.55, "price": 0.55 },
-        { "id": "no", "label": "No", "probability": 0.45, "price": 0.45 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.55,
+          "price": 0.55
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.45,
+          "price": 0.45
+        }
       ]
     },
     {
@@ -461,8 +778,18 @@
       "volume": 62000,
       "endDate": "2027-02-15",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.48, "price": 0.48 },
-        { "id": "no", "label": "No", "probability": 0.52, "price": 0.52 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.48,
+          "price": 0.48
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.52,
+          "price": 0.52
+        }
       ]
     },
     {
@@ -475,8 +802,18 @@
       "volume": 70000,
       "endDate": "2040-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.43, "price": 0.43 },
-        { "id": "no", "label": "No", "probability": 0.57, "price": 0.57 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.43,
+          "price": 0.43
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.57,
+          "price": 0.57
+        }
       ]
     },
     {
@@ -489,8 +826,18 @@
       "volume": 85000,
       "endDate": "2035-01-01",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.27, "price": 0.27 },
-        { "id": "no", "label": "No", "probability": 0.73, "price": 0.73 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.27,
+          "price": 0.27
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.73,
+          "price": 0.73
+        }
       ]
     },
     {
@@ -503,8 +850,18 @@
       "volume": 43000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.65, "price": 0.65 },
-        { "id": "no", "label": "No", "probability": 0.35, "price": 0.35 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.65,
+          "price": 0.65
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.35,
+          "price": 0.35
+        }
       ]
     },
     {
@@ -517,8 +874,18 @@
       "volume": 39000,
       "endDate": "2026-12-31",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.45, "price": 0.45 },
-        { "id": "no", "label": "No", "probability": 0.55, "price": 0.55 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.45,
+          "price": 0.45
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.55,
+          "price": 0.55
+        }
       ]
     },
     {
@@ -531,8 +898,90 @@
       "volume": 32000,
       "endDate": "2032-08-15",
       "outcomes": [
-        { "id": "yes", "label": "Yes", "probability": 0.15, "price": 0.15 },
-        { "id": "no", "label": "No", "probability": 0.85, "price": 0.85 }
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.15,
+          "price": 0.15
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.85,
+          "price": 0.85
+        }
+      ]
+    },
+    {
+      "id": "trump-2028-election",
+      "title": "Will Donald Trump win the 2028 US Presidential Election?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/trump.png",
+      "description": "Resolves YES if Donald Trump wins the 2028 United States presidential election.",
+      "volume": 1250000,
+      "endDate": "2028-11-05",
+      "outcomes": [
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.41,
+          "price": 0.41
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.59,
+          "price": 0.59
+        }
+      ]
+    },
+    {
+      "id": "trump-prison-2026",
+      "title": "Will Donald Trump be sentenced to prison before 2026?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/trump.png",
+      "description": "Resolves YES if Donald Trump receives a prison sentence in any criminal case before January 1, 2026.",
+      "volume": 670000,
+      "endDate": "2026-01-01",
+      "outcomes": [
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.27,
+          "price": 0.27
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.73,
+          "price": 0.73
+        }
+      ]
+    },
+    {
+      "id": "trump-twitter-2025",
+      "title": "Will Donald Trump post on X (Twitter) before July 2025?",
+      "category": "Politics",
+      "status": "open",
+      "image": "/images/trump.png",
+      "description": "Resolves YES if Donald Trump posts on X (formerly Twitter) before July 1, 2025.",
+      "volume": 430000,
+      "endDate": "2025-07-01",
+      "outcomes": [
+        {
+          "id": "yes",
+          "label": "Yes",
+          "probability": 0.76,
+          "price": 0.76
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "probability": 0.24,
+          "price": 0.24
+        }
       ]
     }
   ]

@@ -43,7 +43,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function HeaderBar() {
+export default function HeaderBar({setSearchTerm }) {
+
+  const onInputChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
   return (
     <Toolbar disableGutters sx={{ display: 'flex', alignItems: 'center' ,py: 2 }}>
       <Logo />
@@ -52,9 +57,10 @@ export default function HeaderBar() {
         <SearchIconWrapper>
           <SearchIcon />
         </SearchIconWrapper>
-        <StyledInputBase
+         <StyledInputBase
           placeholder="Search polymarket"
-          inputProps={{ 'aria-label': 'search' }}
+          inputProps={{ "aria-label": "search" }}
+          onChange={onInputChange}
         />
       </Search>
       
