@@ -114,7 +114,6 @@ export default function DetailCard() {
               </ul>
             </DropdownToggleButton>
           </Box>
-          <pre>{JSON.stringify(bet, null, 2)}</pre>
           
         </Container>
       </Box>
