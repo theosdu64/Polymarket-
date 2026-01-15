@@ -6,6 +6,7 @@ import MarketCard from "../components/MarketCard/MarketCard";
 import Data from "../../data.json";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import MenuTop2 from "../components/MenuTop2/MenuTop2.jsx";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -45,6 +46,7 @@ export default function Home() {
       </Box>
 
       <Box sx={{ flex: 1 }}>
+          <MenuTop2 />
         <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
           <Grid container spacing={3}>
             {filteredMarkets.map((market) => (

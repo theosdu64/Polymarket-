@@ -1,0 +1,27 @@
+.MenuTop2 .Mui-selected {
+        color:#2c9cdb !important;
+        background-color: #20415a !important;
+
+}
+.MenuTop2 .Mui-selected:hover {
+    color:#2c9cdb;
+}
+
+.MenuTop2 button {
+    margin-top: 10px;
+    text-transform: unset;
+    min-width: 50px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    min-height: 20px;
+}
+
+.MenuTop2 button:hover{
+    color:whitesmoke;
+}
+
+.iconMenuTop2 {
+    color: #ffffff !important;
+}
+
+.MuiTabScrollButton-root {}
