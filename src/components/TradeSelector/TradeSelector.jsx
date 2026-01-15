@@ -122,15 +122,17 @@ export default function TradeCard({bet}) {
             ))}
         </Stack>
 
-        {/* Trade button */}
         <Button
             variant="contained"
-            color={action === "BUY" ? "success" : "error"}
-            fullWidth
-            disabled={betPercent === null}
-        >
+            sx={{
+                backgroundColor: 'rgb(0, 145, 255)',
+                '&:hover': { backgroundColor: 'rgb(0, 125, 220)' },
+                px: 3, // padding horizontal menor (default é maior)
+            }}
+            >
             Trade
-        </Button>
+            </Button>
+
     </Paper>
     );
 }
