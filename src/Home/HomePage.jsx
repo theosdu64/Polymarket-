@@ -10,11 +10,18 @@ import { useState } from "react";
 export default function Home() {
   const navigate = useNavigate();
   const [category, setCategory] = useState("All");
+  const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredMarkets =
-    category === "All"
-      ? Data.markets
-      : Data.markets.filter((market) => market.category === category);
+  const filteredMarkets = Data.markets.filter((market) => {
+    const matchCategory =
+      category === "All" || market.category === category;
+
+    const matchSearch =
+      market.title.toLowerCase().includes(searchTerm.toLowerCase());
+
+    return matchCategory && matchSearch;
+  });   
+
 
   return (
     <Container
@@ -33,7 +40,7 @@ export default function Home() {
           backgroundColor : 'background.default'
         }}
       >
-          <HeaderBar />
+          <HeaderBar setSearchTerm={setSearchTerm}/>
           <MenuTop1 onChangeCategory={setCategory} />
       </Box>
 
