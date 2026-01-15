@@ -25,8 +25,8 @@ function MarketCard({
         minHeight: 175,
         width: {
           xs: "100%",
-          sm: 320,
-          md: 340,
+          sm: 350,
+          md: 350,
         },
         display: "flex",
         flexDirection: "column",
@@ -42,7 +42,6 @@ function MarketCard({
         },
       }}
     >
-      {/* LINE 1 */}
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
         <Box
           component="img"
@@ -141,7 +140,7 @@ function MarketCard({
         </Typography>
       </Box>
     </Card>
-  );
+    );
 }
 
 export default MarketCard;

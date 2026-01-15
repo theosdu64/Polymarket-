@@ -2,7 +2,6 @@ import React from "react";
 import { Box, CircularProgress, Typography } from "@mui/material";
 
 function ProbabilitySemiCircle({ value = 30 }) {
-  // Determine color according to percent
   const getColor = (val) => {
     if (val >= 70) return "success.main";
     if (val >= 40) return "warning.main";
@@ -10,7 +9,6 @@ function ProbabilitySemiCircle({ value = 30 }) {
   };
 
   return (
-    //<Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <Box
         sx={{
           position: "relative",

@@ -16,43 +16,48 @@ export default function Home() {
       ? Data.markets
       : Data.markets.filter((market) => market.category === category);
 
-return (
-  <>
-    <Box
+  return (
+    <Container
       sx={{
-        position: "sticky",
-        top: 0,
-        zIndex: 1100,
-        backgroundColor: "background.default",
-        borderBottom: "1px solid #3d5266",
-
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh", 
       }}
     >
-      <Container maxWidth="xl">
-        <HeaderBar />
-        <MenuTop1 onChangeCategory={setCategory} />
-      </Container>
-    </Box>
+      <Box
+        sx={{
+          position: "sticky",
+          top: 0,
+          zIndex: 1100,
+          borderBottom: "1px solid #3d5266",
+          backgroundColor : 'background.default'
+        }}
+      >
+          <HeaderBar />
+          <MenuTop1 onChangeCategory={setCategory} />
+      </Box>
 
-    <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
-      <Grid container spacing={3}>
-        {filteredMarkets.map((market) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={market.id}>
-            <MarketCard
-              title={market.title}
-              imageUrl={market.image}
-              probability={Math.round(market.outcomes[0].probability * 100)}
-              volume={market.volume}
-              onClick={() => navigate(`/card/${market.id}`)}
-              onYes={() => console.log("YES", market.id)}
-              onNo={() => console.log("NO", market.id)}
-            />
+      <Box sx={{ flex: 1 }}>
+        <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+          <Grid container spacing={3}>
+            {filteredMarkets.map((market) => (
+              <Grid item xs={12} sm={6} md={4} lg={3} key={market.id}>
+                <MarketCard
+                  title={market.title}
+                  imageUrl={market.image}
+                  probability={Math.round(market.outcomes[0].probability * 100)}
+                  volume={market.volume}
+                  onClick={() => navigate(`/card/${market.id}`)}
+                  onYes={() => console.log("YES", market.id)}
+                  onNo={() => console.log("NO", market.id)}
+                />
+              </Grid>
+            ))}
           </Grid>
-        ))}
-      </Grid>
-    </Container>
+        </Container>
+      </Box>
 
-    <Footer />
-  </>
-);
+      <Footer />
+    </Container>
+  );
 }

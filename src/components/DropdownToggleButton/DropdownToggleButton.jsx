@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function DropdownToggleButton({
   label = "",
   color = "primary",
-  children,           // dropdown content
+  children,           
   expandedProp,
   onToggle,
 }) {
@@ -20,7 +20,6 @@ export default function DropdownToggleButton({
 
   return (
     <Box width="100%">
-      {/* button */}
       <Button
         onClick={handleClick}
         aria-label="Toggle section"

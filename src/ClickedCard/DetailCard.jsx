@@ -12,7 +12,6 @@ import TradeSelector from "../components/TradeSelector";
 
 export default function DetailCard() {
   const { id } = useParams();
-  //get object from json
 
   const [bet, setBet] = useState(null);
 
